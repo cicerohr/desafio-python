@@ -1,6 +1,6 @@
 # Desafio Python
 
-Lista de exercícios para trinar a programação em Python.
+Lista de exercícios para treinar programação em Python.
 
 Fonte:
 
