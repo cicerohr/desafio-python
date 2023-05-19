@@ -26,14 +26,12 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
         lista com o resultado dos números convertidos em `str`
 
     """
-    return [
-        str(n) for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0
-    ]
+    return [n for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0]
 
 
 def main():
     """Função principal."""
-    print(', '.join(divisiveis_por_7(2000, 3200)))
+    print(divisiveis_por_7(2000, 3200))
 
 
 if __name__ == '__main__':
