@@ -26,7 +26,9 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
         lista com o resultado dos números convertidos em `str`
 
     """
-    return [str(n) for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0]
+    return [
+        str(n) for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0
+    ]
 
 
 def main():
