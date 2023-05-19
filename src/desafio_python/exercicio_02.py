@@ -7,14 +7,13 @@ Os resultados devem ser impressos em uma sequência separada por vírgulas em
 uma única linha. Suponha que a seguinte entrada seja fornecida ao programa:
 8 então, a saída deve ser: 40320
 
-Notes: Curiosidade
+Notes: Definição:
     Na matemática, o fatorial (AO 1945: factorial) de um número natural 'n',
     representado por 'n!', é o produto de todos os inteiros positivos menores
     ou iguais a n. A notação 'n!' foi introduzida por Christian Kramp em 1808.
 
-    0! = 1
-
-    1! = 1
+        0! = 1
+        1! = 1
 """
 
 
