@@ -23,15 +23,15 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
         fim: número final da faixa
 
     Returns:
-        lista com o resultado dos números
+        lista com o resultado dos números convertidos em `str`
 
     """
-    return [n for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0]
+    return [str(n) for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0]
 
 
 def main():
     """Função principal."""
-    print(divisiveis_por_7(2000, 3200))
+    print(', '.join(divisiveis_por_7(2000, 3200)))
 
 
 if __name__ == '__main__':
