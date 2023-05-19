@@ -37,4 +37,9 @@ lint = "blue --check --diff . && isort --check --diff ."
 docs = "mkdocs serve"
 pre_test = "task lint"
 test = "pytest -s -x --cov=src -vv"
+#   -v: mostra o nome dos testes executados
+#   -s: mostra as saídas no console
+#   -k: "nome_dos_testes": filtra resultados
+#   -x: saída rápida
+#   -pdb: para debugar quando falha
 post_test = "coverage html"
