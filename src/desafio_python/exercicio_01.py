@@ -12,13 +12,13 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
     """Verfica se os números, de uma faixa, são divisíveis por 7, mas não é
     múltiplo de 5.
 
-    Examples:
+    Examples: Exemplos:
         >>> divisiveis_por_7(7, 77)
         [7, 14, 21, 28, 42, 49, 56, 63, 77]
         >>> divisiveis_por_7(50, 77)
         [56, 63, 77]
 
-    Args:
+    Args: Parâmetros:
         inicio: número inicial da faixa
         fim: número final da faixa
 
@@ -32,6 +32,7 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
 def main():
     """Função principal."""
     print(divisiveis_por_7(2000, 3200))
+    print(divisiveis_por_7(7, 46))
 
 
 if __name__ == '__main__':

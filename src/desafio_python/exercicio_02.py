@@ -20,7 +20,7 @@ Notes: Definição:
 def fatorial(n: int) -> int:
     """Calcula o fatorial de um número de forma recursiva.
 
-    Examples:
+    Examples: Exemplos:
         >>> fatorial(0)
         1
         >>> fatorial(1)
@@ -30,7 +30,7 @@ def fatorial(n: int) -> int:
         >>> fatorial(3)
         6
 
-    Args:
+    Args: Parâmetro:
         n: número
 
     Raises:
