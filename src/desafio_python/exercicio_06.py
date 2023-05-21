@@ -19,7 +19,7 @@ class OrdenaSequencia:
     Args: Parâmetros:
         palavras (str): sequência de palavras separadas por vírgulas
         lista_palavras (list): lista com as palavras do usuário
-        lista_ordenada (list): lista coa as palavras ordenadas
+        lista_ordenada (list): lista com as palavras ordenadas
 
     Examples: Exemplos:
         >>> x = OrdenaSequencia('rota,olá,saco,mundo')
