@@ -1,4 +1,4 @@
-"""desafio-python in: 2023-05-20.
+"""desafio-python > exercicio_03.py | 2023-05-20.
 
 Exercícios Python - #03
 
