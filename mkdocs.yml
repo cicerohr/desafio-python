@@ -1,6 +1,6 @@
 site_name: Desafio Python
-repo_url: https://github.com/<usuario_github>/desafio_python
-repo_name: cicerohr/desafio_python
+repo_url: https://github.com/cicerohr/desafio-python
+repo_name: cicerohr/desafio-python
 edit_uri: edit/main/docs/
 
 theme:
