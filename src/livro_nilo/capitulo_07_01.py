@@ -1,10 +1,10 @@
-"""desafio-python > capitulo_07_01.py | 2023-05-23.
+"""desafio-python/src/livro_nilo/capitulo_07_01.py | 2023-05-23.
 
 Procurando strings dentro de strings
 
-@author: Nilo Ney Coutinho Menezes
-@modified by: Cícero
-@link: https://python.nilo.pro.br/
+    @author: Nilo Ney Coutinho Menezes
+    @modified by: Cícero
+    @link: https://python.nilo.pro.br/
 
 Escreva um programa que leia duas strings. Verifique se a segunda ocorre dentro
 da primeira e imprima a posição de início.
