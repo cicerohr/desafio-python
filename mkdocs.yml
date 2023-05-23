@@ -58,7 +58,7 @@ extra:
       link: https://github.com/cicerohr
 
 watch:
-  - src/desafio_python
+  - src
 
 plugins:
   - search:
@@ -66,7 +66,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [ src/desafio_python ]
+          paths: [ src/* ]
           options:
             separate_signature: true
             show_signature_annotations: true
