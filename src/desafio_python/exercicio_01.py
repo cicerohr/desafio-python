@@ -29,11 +29,6 @@ def divisiveis_por_7(inicio: int, fim: int) -> list:
     return [n for n in range(inicio, fim + 1) if n % 7 == 0 and n % 5 != 0]
 
 
-def main():
-    """Função principal."""
+if __name__ == '__main__':  # pragma: no cover
     print(divisiveis_por_7(2000, 3200))
     print(divisiveis_por_7(7, 46))
-
-
-if __name__ == '__main__':  # pragma: no cover
-    main()

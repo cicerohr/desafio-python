@@ -47,11 +47,6 @@ def fatorial(n: int) -> int:
     return n * fatorial(n - 1)
 
 
-def main():
-    """Função principal."""
+if __name__ == '__main__':  # pragma: no cover
     n = int(input('Digite um número: '))
     print(fatorial(n))
-
-
-if __name__ == '__main__':  # pragma: no cover
-    main()
