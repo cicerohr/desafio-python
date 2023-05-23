@@ -49,7 +49,7 @@ class OrdenaSequencia:
         return ', '.join(self.lista_ordenada)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     palavras = input(
         'Digite uma sequência de palavras separadas por vírgulas: '
     )

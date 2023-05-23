@@ -47,6 +47,6 @@ class FraseEmMaiuscula:
             print(linha)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     f = FraseEmMaiuscula()
     print(f)

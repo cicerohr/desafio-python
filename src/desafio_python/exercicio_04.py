@@ -46,7 +46,7 @@ class ImprimeStringMaiusculas:
         print(self.string.upper())
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     imprime = ImprimeStringMaiusculas()
     imprime.get_string()
     imprime.print_string()

@@ -94,7 +94,7 @@ class CalculaSequenciaNumerica:
         )
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     c = CalculaSequenciaNumerica()
     c.obter_dados()
     print(c)

@@ -78,7 +78,7 @@ class DivisivelPorCinco:
         return ','.join(map(str, self.divisiveis_por_cinco))
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     entrada = input(
         'Digite a sequência de binário separados por vírgulas: '
     ).split(',')

@@ -37,7 +37,7 @@ def gerar_colecoes(valores: str) -> print:
     return print(lista, tupla)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     sequencia = input(
         'Digite uma sequência de números separados por vírgulas: '
     )

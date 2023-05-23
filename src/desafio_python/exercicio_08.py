@@ -54,7 +54,7 @@ class ClassificaPalavras:
         return ' '.join(self.palavras)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     frase = input(
         'Digite uma sequência de palavras separadas por espaços em branco: '
     ).split()
