@@ -33,8 +33,8 @@ class ClassificaPalavras:
 
     Examples: Exemplo:
         >>> p = ['ola','mundo', 'a', 'pratica', 'faz', 'bem', 'ola','mundo']
-        >>> c = ClassificaPalavras(p)
-        >>> c.palavras
+        >>> ab = ClassificaPalavras(p)
+        >>> ab.palavras
         ['a', 'bem', 'faz', 'mundo', 'ola', 'pratica']
     """
 

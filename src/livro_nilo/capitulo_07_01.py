@@ -4,7 +4,7 @@ Procurando strings dentro de strings
 
     @author: Nilo Ney Coutinho Menezes
     @modified by: Cícero
-    @link: https://python.nilo.pro.br/
+    @link: https://python.nilo.pro.br/exercicios3/capitulo%2007/exercicio-07-01.html
 
 Escreva um programa que leia duas strings. Verifique se a segunda ocorre dentro
 da primeira e imprima a posição de início.
@@ -58,7 +58,6 @@ class BuscaString:
         Returns:
             índice do primeiro símbolo encontrado; -1 caso contrário.
         """
-
         try:
             return self.alvo.find(self.busca)
         except Exception as e:
