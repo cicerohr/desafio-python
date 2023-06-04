@@ -17,8 +17,8 @@ Site: https://python.nilo.pro.br/exercicios3/
 
 * 7-01 [Procurando strings dentro de strings](capitulo_07_01.py)
 * 7-02 [Gere uma string com os caracteres em comum de duas outras strings](capitulo_07_02.py)
-* 7-03 Gere uma terceira strings com os caracteres aparecidos somente na
-  primeira ou na segunda string
+* 7-03 [Gere uma terceira strings com os caracteres aparecidos somente na
+  primeira ou na segunda string](capitulo_07_03.py)
 * 7-04 Conte quantas vezes cada caractere aparece numa string
 * 7-05 Leia duas strings e gere uma terceira com os caracteres da segunda,
   retirados da primeira
