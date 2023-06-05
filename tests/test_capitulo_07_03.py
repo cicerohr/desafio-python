@@ -23,8 +23,9 @@ def test_diferenca_simetrica_tipo_diferente_pf():
 
 def test_diferenca_simetrica_sem_um_parametro():
     ab = DiferencaSimetricaConjunto('AAACTBF', None)
-    assert ab.diferenca_simetrica() == "Erro: 'NoneType' object is not " \
-                                       "iterable"
+    assert (
+        ab.diferenca_simetrica() == "Erro: 'NoneType' object is not iterable"
+    )
 
 
 def test_diferenca_simetrica_com_parametro_vazio():
