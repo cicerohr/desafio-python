@@ -9,6 +9,5 @@ def test_entrada_correta():
 def test_entrada_incorreta():
     entrada = ContadorLetras(123)
     assert (
-        entrada.contador_caracteres() == 'Erro: somente strings são '
-        'válidas.'
+        entrada.contador_caracteres() == 'Erro: somente strings são válidas.'
     )
