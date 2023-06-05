@@ -24,12 +24,12 @@ class ContadorLetras:
         caracteres: string com caracteres a serem contados
 
     Examples:
-    >>> entrada = ContadorLetras('sequencia')
-    >>> entrada.contador_caracteres()
-    {'s': 1, 'e': 2, 'q': 1, 'u': 1, 'n': 1, 'c': 1, 'i': 1, 'a': 1}
-    >>> entrada = ContadorLetras(123)
-    >>> entrada.contador_caracteres()
-    'Erro: somente strings são válidas.'
+        >>> entrada = ContadorLetras('sequencia')
+        >>> entrada.contador_caracteres()
+        {'s': 1, 'e': 2, 'q': 1, 'u': 1, 'n': 1, 'c': 1, 'i': 1, 'a': 1}
+        >>> entrada = ContadorLetras(123)
+        >>> entrada.contador_caracteres()
+        'Erro: somente strings são válidas.'
     """
 
     caracteres: str
