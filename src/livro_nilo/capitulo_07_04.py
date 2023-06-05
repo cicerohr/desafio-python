@@ -41,13 +41,18 @@ class ContadorLetras:
             dicionário com o numero de vezes que cada caractere apareceu.
         """
         contador = {}
-        if self.eh_valido():
+        if self.eh_string():
             for caractere in self.caracteres:
                 contador[caractere] = contador.get(caractere, 0) + 1
             return contador
         return 'Erro: somente strings são válidas.'
 
-    def eh_valido(self):
+    def eh_string(self) -> bool:
+        """Verifica se a entrada é uma string.
+
+        Returns:
+            True se é uma string, False caso contrário.
+        """
         return isinstance(self.caracteres, str)
 
 
