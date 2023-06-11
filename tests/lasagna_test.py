@@ -56,10 +56,10 @@ class LasagnaTest(unittest.TestCase):
         result_data = [40 - item for item in input_data]
 
         for variant, (time, result) in enumerate(
-                zip(input_data, result_data), start=1
+            zip(input_data, result_data), start=1
         ):
             with self.subTest(
-                    f'variation #{variant}', time=time, result=result
+                f'variation #{variant}', time=time, result=result
             ):
                 failure_msg = (
                     f'Expected: {result} but the bake time remaining was '
@@ -75,10 +75,10 @@ class LasagnaTest(unittest.TestCase):
         result_data = [item * 2 for item in input_data]
 
         for variant, (layers, time) in enumerate(
-                zip(input_data, result_data), start=1
+            zip(input_data, result_data), start=1
         ):
             with self.subTest(
-                    f'variation #{variant}', layers=layers, time=time
+                f'variation #{variant}', layers=layers, time=time
             ):
                 failure_msg = (
                     f'Expected: {time} minutes, but preparation time was '
@@ -97,13 +97,13 @@ class LasagnaTest(unittest.TestCase):
         ]
 
         for variant, (layers, time, total_time) in enumerate(
-                zip(layer_data, time_data, result_data), start=1
+            zip(layer_data, time_data, result_data), start=1
         ):
             with self.subTest(
-                    f'variation #{variant}',
-                    layers=layers,
-                    time=time,
-                    total_time=total_time,
+                f'variation #{variant}',
+                layers=layers,
+                time=time,
+                total_time=total_time,
             ):
                 failure_msg = (
                     f'Expected {time} minutes elapsed, but the timing was '
