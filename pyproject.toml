@@ -27,6 +27,9 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 pythonpath = "."
 addopts = "--doctest-modules"
+markers = [
+    "task: A concept exercise task.",
+]
 
 [tool.isort]
 profile = "black"
