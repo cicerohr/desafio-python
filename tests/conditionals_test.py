@@ -1,6 +1,7 @@
 import unittest
 
 import pytest
+
 from src.Exercism.meltdown_mitigation.conditionals import (
     fail_safe,
     is_criticality_balanced,
