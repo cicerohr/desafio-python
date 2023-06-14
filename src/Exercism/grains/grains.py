@@ -37,4 +37,4 @@ def total() -> int:
     Returns:
         the total number of grains on the chessboard.
     """
-    return sum([square(s) for s in range(1, 65)])
+    return sum(square(s) for s in range(1, 65))
